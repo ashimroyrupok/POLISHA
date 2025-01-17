@@ -1,13 +1,11 @@
-
-import './App.css'
+import Navbar from "./components/layout/Shared/Navbar";
 
 function App() {
-
   return (
     <>
-    <h1 className=' text-green-700 text-4xl '> Hello POLISHA</h1>
+      <Navbar />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
