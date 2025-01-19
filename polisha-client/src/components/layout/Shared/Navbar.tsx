@@ -25,7 +25,10 @@ const Navbar = () => {
         <div className="flex justify-between py-2 px-5 items-center   shadow-sm">
           <div className="logo ">
             {/* <img className="w-[100px] h-[70px] object-fit" src={logo} alt="" /> */}
-            <h1 className="text-xl text-white font-semibold"> POLISHA </h1>
+            <h1 className="text-xl font-bold bg-gradient-to-r from-pRed to-white/40  bg-clip-text text-transparent ">
+              {" "}
+              POLISHA{" "}
+            </h1>
           </div>
 
           {/* Desktop menu */}

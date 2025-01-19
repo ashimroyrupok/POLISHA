@@ -2,7 +2,7 @@
 import ServiceSlider from "./FeaturedSlider";
 const Featured = () => {
     return (
-      <div className="bg-carbonBG bg-black/85 my-16 p-10">
+      <div className="bg-carbonBG bg-[#19191B] my-16 p-10">
         <div className="h-full   w-full p-2 max-w-7xl mx-auto ">
           {/* featured top */}
           <div className="w-full pt-10 text-center ">
@@ -22,9 +22,7 @@ const Featured = () => {
           </div>
           {/* slider */}
           <div className="flex justify-center items-center w-full h-[620px] my-12  ">
-           
-                <ServiceSlider />
-
+            <ServiceSlider />
           </div>
         </div>
       </div>
