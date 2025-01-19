@@ -53,13 +53,13 @@ export default function BannerSlider() {
     setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
   };
 
-  if (loadedImages.length !== slides.length) {
-    return (
-      <div className="h-screen w-full bg-gray-900 flex items-center justify-center text-white">
-        Loading...
-      </div>
-    );
-  }
+  // if (loadedImages.length !== slides.length) {
+  //   return (
+  //     <div className="h-screen w-full bg-gray-900 flex items-center justify-center text-white">
+  //       Loading...
+  //     </div>
+  //   );
+  // }
 
   return (
     <div className="relative h-screen w-full overflow-hidden bg-gray-900">
